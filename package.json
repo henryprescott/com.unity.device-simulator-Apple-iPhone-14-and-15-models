@@ -1,0 +1,12 @@
+{
+  "name": "henryprescott.device-simulator.devices",
+  "version": "1.0.0",
+  "displayName": "Device Simulator Additional Devices",
+  "description": "This package contains additional devices for the Device Simulator. After you install this package, the additional devices are immediately available in the Device Simulator.",
+  "unity": "2022.1",
+  "author": {
+    "name": "henryprescott",
+    "email": "prescotthenry@hotmail.com",
+    "url": "https://github.com/henryprescott"
+  }
+}

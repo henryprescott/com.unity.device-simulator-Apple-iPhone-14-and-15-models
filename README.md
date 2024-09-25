@@ -15,8 +15,26 @@ Safe Area specifications taken from [Use Your Loaf](https://useyourloaf.com/):
 * [iPhone 15 Models ](https://useyourloaf.com/blog/iphone-15-screen-sizes/)
 
 # Installation Instructions
+
+## Manual Installation
 * In an existing Unity project, create a new folder called `Devices` in any directory e.g. `<project directory>/Assets/Configs/Devices`.
 * Copy the contents of this repository to the chosen folder.
+
+## Git UPM Installation
+* Open unity package manager window
+* Click the `+` button
+* Choose `Add package from git URL`
+* Paste the following link
+```
+https://github.com/henryprescott/com.unity.device-simulator-Apple-iPhone-14-and-15-models.git
+```
+
+Or simply
+* Open `Packages/manifest.json` in your project
+* Add the following to the dependencies section:
+```json
+"henryprescott.device-simulator.devices": "https://github.com/henryprescott/com.unity.device-simulator-Apple-iPhone-14-and-15-models.git"
+```
 
 ### Known Issues
 * Some images may not be pixel perfect, but are close enough.
